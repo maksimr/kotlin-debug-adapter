@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to the debug adapter will be documented in this file.
 
+## [0.4.5]
+873ebb4 use runtimeClasspath during classpath resolution
+7f05669 Use Kotlin DSL for gradle scripts (#81)
+3b09a57 Style another note box
+
 ## [0.4.4]
 - Kotlin 1.9.10
 - Fix class path resolution by depending on the language server's shared module via a source dependency (see #78)
