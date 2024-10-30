@@ -15,7 +15,7 @@ pluginManagement {
 }
 
 sourceControl {
-    gitRepository(java.net.URI.create("https://github.com/fwcd/kotlin-language-server.git")) {
+    gitRepository(java.net.URI.create("https://github.com/maksimr/kotlin-language-server.git")) {
         producesModule("kotlin-language-server:shared")
     }
 }

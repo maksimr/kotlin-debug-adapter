@@ -23,7 +23,7 @@ dependencies {
 	implementation("org.eclipse.lsp4j:org.eclipse.lsp4j.debug:0.15.0")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
-	implementation("kotlin-language-server:shared")
+    implementation("kotlin-language-server:shared")
 
     // modules temporarily needed because of shared module import above
     implementation("org.jetbrains.exposed:exposed-core:0.37.3")
